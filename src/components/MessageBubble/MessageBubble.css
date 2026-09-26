@@ -1,0 +1,13 @@
+.message-row {
+  display: flex;
+
+  margin-bottom: 10px;
+}
+
+.message-row-incoming {
+  justify-content: flex-start;
+}
+
+.message-row-outgoing {
+  justify-content: flex-end;
+}

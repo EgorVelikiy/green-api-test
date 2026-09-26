@@ -3,6 +3,8 @@ import type {
   RefObject,
 } from "react";
 
+import './Chat.css'
+
 import type { ChatMessage } from "../../types/chat";
 import ChatHeader from "./ChatHeader/ChatHeader";
 import MessageList from "./MessageList/MessageList";

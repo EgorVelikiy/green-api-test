@@ -1,7 +1,7 @@
 import type { RefObject } from "react";
 import type { ChatMessage } from "../../../types/chat";
 import MessageBubble from "../../MessageBubble/MessageBubble";
-
+import './MessageList.css'
 
 interface MessageListProps {
   messages: ChatMessage[];

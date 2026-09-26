@@ -1,4 +1,5 @@
 import type { FormEvent } from "react";
+import './AuthForm.css'
 
 interface AuthFormProps {
   idInstance: string;

@@ -3,6 +3,8 @@ import type {
   KeyboardEvent,
 } from "react";
 
+import './MessageInput.css'
+
 interface MessageInputProps {
   value: string;
   sending: boolean;
